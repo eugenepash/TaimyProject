@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    color: white;
+    background: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 60px;
+    word-spacing: 10;
+    transition: .3s;
+    
+    
+}
+.taimyLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ;
+}
+.metronom{
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    margin-bottom: 12px;
+    background-image: url(images/metronom.gif);
+    background-size: cover;
+    text-decoration: underline;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+}
+
+
