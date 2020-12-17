@@ -1,17 +1,135 @@
 <head>
     <meta charset="utf-8" />
     <title>TAIMY BEATS</title>
+
     <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="logo">
-        <div class="taimyLogo">TAIMY BE<div class="metronom"></div>TS</div>
+<body class="body">
+    <!--    Navigarion   -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow" style="background-color: black; ">
+        <div class="container-fluid">
+            <a class="navbar-brand logo">
+                <div class="taimyLogo">TAIMY.BE<div class="metronom"></div>TS</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                    <a class="nav-link" href="#">Биты</a>
+                    <a class="nav-link" href="#">Треки</a>
+                    <a class="nav-link" href="#">Обо мне</a>
+                </div>
+
+            </div>
+            <form class="container-fluid d-flex justify-content-end m-0">
+                <button class="btn-contacts btn btn-outline-light" type="button">Контакты</button>
+            </form>
+
+        </div>
+
+    </nav>
+
+    <!--    main ========================-->
+
+    <div id="carouselExampleCaptions" data-interval='5000' wrap='false' class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/carousel/1.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Taimy</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel/2.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/carousel/3.jpg" class="d-block w-100" alt="..." style="filter: brightness(50%);">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+        </a>
     </div>
+<!---->
+    <div class="card rounded-0 text-center">
+        <div class="card-header">
+            Цитата
+        </div>
+        <div class="card-body">
+            <blockquote class="blockquote mb-0">
+                <p>"За ВДВ, спецназ, и за Кавказ!"</p>
+                <footer class="blockquote-footer">Taimy, <cite title="Source Title">хлопец з району</cite></footer>
+            </blockquote>
+        </div>
+    </div>
+<!--    -->
+    <div class="row row-cols-1 row-cols-md-3 g-4 rounded-0 m-4">
+        <div class="col rounded-0">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Название карточки</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col rounded-0">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Название карточки</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col rounded-0">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Название карточки</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---->
+    <div class="card text-center rounded-0">
+        <div class="card-header">
+            Битмейкер
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Ощути мощь звука!</h5>
+            <p class="card-text">Лучшее звучание ваших треков за лучшую цену!</p>
+            <a href="#" class="btn btn-primary">Заценить звук!</a>
+        </div>
+    </div>
+<!---->
     
-    <script>
-  document.addEventListener("DOMContentLoaded");
-</script>
+
 </body>
