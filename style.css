@@ -22,20 +22,23 @@ img {max-width:100%;height:auto;}
 }
 
 .taimyLogo{
+    font-size: 1.5em;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: .3s ;
 }
 .metronom{
-    height: 1.4em;
-    width: 1.4em;
+    height: 1.2em;
+    width: 1.2em;
     margin: 0;
     margin-bottom: 12px;
     background-image: url(images/metronom.gif);
     background-size: cover;
     text-decoration: underline;
 }
-
+.gradient{
+filter: brightness(30%);
+}
 
 
