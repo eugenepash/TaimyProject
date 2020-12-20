@@ -1,10 +1,4 @@
-.btn-contacts{
-    transition: 0.3s linear;
-}
-img {max-width:100%;height:auto;}
-.bg-dark{
-    background-color: black;
-}
+
 .body{
     font-family: 'Montserrat', sans-serif;
     background-color: black ;
@@ -18,7 +12,7 @@ img {max-width:100%;height:auto;}
     transition: .3s;
 }
 .logo:hover{
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 
 .taimyLogo{
@@ -33,12 +27,51 @@ img {max-width:100%;height:auto;}
     width: 1.2em;
     margin: 0;
     margin-bottom: 12px;
-    background-image: url(images/metronom.gif);
+    background-image: url(assets/images/metronom.gif);
     background-size: cover;
     text-decoration: underline;
 }
 .gradient{
 filter: brightness(30%);
 }
+audio:active, audio:focus {
+  outline: none;
+}
+audio{
+    width: 100%;
+}
+audio::-webkit-media-controls-panel{
+    background-color: white;
+}
 
+audio::-webkit-media-controls-mute-button{
+    
+}
 
+audio::-webkit-media-controls-play-button{
+    background-color: white;
+}
+
+audio::-webkit-media-controls-timeline-container
+
+audio::-webkit-media-controls-current-time-display
+
+audio::-webkit-media-controls-time-remaining-display
+
+audio::-webkit-media-controls-timeline
+
+audio::-webkit-media-controls-volume-slider-container
+
+audio::-webkit-media-controls-volume-slider
+
+audio::-webkit-media-controls-seek-back-button
+
+audio::-webkit-media-controls-seek-forward-button
+
+audio::-webkit-media-controls-fullscreen-button
+
+audio::-webkit-media-controls-rewind-button
+
+audio::-webkit-media-controls-return-to-realtime-button
+
+audio::-webkit-media-controls-toggle-closed-captions-button*/
